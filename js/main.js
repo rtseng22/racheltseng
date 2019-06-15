@@ -31,7 +31,7 @@ $(window).on('load', function() {
 		Navigation
 	--------------------*/
 	$('.nav-switch').on('click', function(event) {
-		$('.main-menu').slideToggle(400);
+		$('.main-menu').slideToggle(350);
 		event.preventDefault();
 	});
 

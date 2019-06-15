@@ -825,16 +825,17 @@ a:active {
   }
   .main-menu {
     position: absolute;
-    background: #efefef;
+    background: white;
     width: 100%;
     z-index: 999;
     left: 0;
-    top: 30px;
-    padding-top: 15px;
+    top: 10px;
+    padding-top: 10px;
     display: none;
   }
   .main-menu ul li a {
     padding: 10px 15px;
+    width: 20%;
     border-bottom: 1px solid #ddd;
     display: block;
   }

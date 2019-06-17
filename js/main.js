@@ -57,7 +57,7 @@ $(window).on('load', function() {
 	if ($(window).width() > 991) {
 		port_fi.appendTo('.portfolio-intro');
 		port_si.find('.portfolio-item').height(port_intro_h + 601);
-        port_si.find('.portfolio-item-1').height(port_intro_h + 601);
+        /*port_si.find('.portfolio-item-1').height(port_intro_h + 601);*/
 	}
 
 	$('.portfolio-item.pi-style2').each(function() {
@@ -70,7 +70,7 @@ $(window).on('load', function() {
 	/*------------------
 		Popup
 	--------------------*/
-	$('.portfolio-item').magnificPopup({
+	$('.portfolio-item-1').magnificPopup({
 		type: 'image',
 		mainClass: 'img-popup-warp',
 		removalDelay: 400,
@@ -126,21 +126,4 @@ if($().circleProgress){
 	});
 }
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the header
-var header = document.getElementById("myHeader");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
 })(jQuery);

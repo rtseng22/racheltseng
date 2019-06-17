@@ -361,9 +361,8 @@ ol {
 --------------------------*/
 .header-section {
   padding-top: 30px;
- /*padding-bottom: 10px;*/
+  padding-bottom: 10px;
   position: relative;
-  background: white;
   color: white;
 
 }
@@ -388,8 +387,8 @@ ol {
 
 .main-menu ul {
   list-style: none;
-  position: relative;
-  left: 400px
+  /*position: relative;
+  left: 400px*/
 }
 
 .main-menu ul li {
@@ -595,13 +594,13 @@ ol {
 }
 
 a:link {
-  color: gray;
+  color: darkblue;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: gray;
+  color: darkblue;
   background-color: transparent;
   text-decoration: none;
 }
@@ -827,23 +826,23 @@ a:active {
     position: absolute;
     background: white;
     width: 100%;
-    z-index: 50;
+    z-index: 999;
     left: 0;
-    top: 15px;
-    padding-top: 10px;
+    top: 30px;
+    padding-top: 15px;
     display: none;
   }
   .main-menu ul li a {
-    position: static;
-    z-index: 100;
-    padding: 10px;
-    width: 100%;
+    /*position: static;
+    z-index: 100;*/
+    padding: 10px 15px;
+    /*width: 100%;*/
     border-bottom: 1px solid #ddd;
     display: block;
   }
   .main-menu ul li {
-    position: static;
-    width: 18%;
+    /*position: static;
+    width: 18%;*/
     display: block;
   }
   .main-menu ul li:last-child a {
